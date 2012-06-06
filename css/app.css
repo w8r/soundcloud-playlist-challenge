@@ -1,0 +1,86 @@
+.head {
+    
+}
+
+.head img {
+    float: left;
+    margin-right: 12px;
+}
+
+.header h1 {
+    font-size: 40px;
+}
+
+#user-badge {
+    float: right;
+    background: #555;
+    color: #fff;
+    padding: 3px 5px;
+    border-radius: 0px 3px 0 3px;
+    font-weight: bold;
+}
+
+#playlists-nav li.playlist a {
+    line-height: 22px;
+}
+
+li.playlist a {
+    padding-left: 31px;
+}
+
+li.playlist a:hover {
+    padding-left: 15px;
+}
+
+li.playlist a .btn,li.playlist a .play-indicator {
+    display: none;
+}
+
+li.playlist a:hover .btn,li.playlist a:hover .play-indicator {
+    display: inline-block;
+}
+
+.playlist-title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.playlist-title label,.playlist-title input {
+    font-size: 18px;
+}
+
+.playlist-title label {
+    font-weight: bold;
+}
+
+.playlist-title .edit {
+    margin-left: -38px;
+}
+
+#playlist-tracks .track a {
+    background-color: #fff;
+}
+
+.view #player-frame {
+    display: block;
+}
+
+.edit #player-frame {
+    display: none;
+}
+
+.track a button {
+    display: none;
+}
+
+.track a:hover button {
+    display: inline-block;
+}
+
+#playlist-edit .controls {
+    margin-left: 90px;
+}
+
+#playlist-edit .control-label {
+    width: 70px;
+}
